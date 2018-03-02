@@ -10,6 +10,7 @@ package info.woodchat.knightgame;
 public class TestKnight
 {
     public static void main(String[] args) {
+        System.out.println("func main()");
         Knight jezhang = new Knight("jezhang");
         Weapon b = new KnifeWeapon();
         jezhang.hello();
